@@ -1,0 +1,177 @@
+*
+{
+    color: black;
+    font-family: "cursive", sans-serif;
+}
+html
+{
+    height: max-content;
+    overflow-y: auto;
+}
+html::-webkit-scrollbar
+{
+    width: 1em;
+}
+html::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color: rgb(180, 83, 83);
+    outline: 1px solid slategrey;
+    border-radius: 10%;
+    height: 10vh;
+}
+p
+{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+#profile-picture-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+            to right top,
+            #051937,
+            #004d7a,
+            #008793,
+            #00bf72,
+            #a8eb12
+    ) !important;
+    height: 40vh !important;
+}
+#profile-picture
+{
+    width: 15vh;
+    padding: 1% 1% 1%;
+    border-radius: 50%;
+    border: 15px dotted #fabe28;
+    border-width: 8px;
+}
+
+#profile-picture-band
+{
+    height: 3vh;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1vh;
+}
+
+#profile-picture-band-box
+{
+    width: 20vw;
+    height: 5vh;
+    background-color: #fabe28;
+    margin-top: -4.1vh;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-picture-section-contact
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+#content-section
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-sections
+{
+    height: 100%;
+    width: 50vw;
+    padding: 2%;
+}
+
+i
+{
+    color: #fabe28;
+}
+
+.content-headings
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.content-headings-icons
+{
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-width: 20px;
+    border: 5px dotted #fabe28;
+}
+
+.content-heading-inner-icon
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.content-levels
+{
+    padding: 2%;
+}
+
+.skills-ul li
+{
+    padding: 1%;
+}
+
+.meter
+{
+    height: 20px;
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span
+{
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43,194,83);
+    background-image: linear-gradient(center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69%);
+    box-shadow:
+            inset 0 2px 9px  rgba(255,255,255,0.3),
+            inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+.skill-li-name
+{
+    float:left;
+    margin-top: 0.5rem;
+}
+.skill-level
+{
+    width: 80%;margin-left: 25%;
+}
